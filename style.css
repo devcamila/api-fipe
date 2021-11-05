@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+body {
+    background-color: #fdfdfd;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+}
+
+h1 {
+    color: #383838;
+    align-items: center; 
+    text-justify: inter-word;
+    margin: auto;
+    border: 3px solid rgb(169, 169, 169);
+    border-radius: 5px;
+    padding: 14px;
+}
